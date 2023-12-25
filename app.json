@@ -21,10 +21,25 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "package": "com.anonymous.qrBusinessCardsRN"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "permissions": {
+      "camera": {
+        "description": "We need your permission to use the camera",
+        "require": true
+      },
+      "audioRecording": {
+        "description": "We need your permission to record audio",
+        "require": true
+      }
     }
   }
 }
